@@ -1,0 +1,130 @@
+.SignIn{
+    margin:2rem 0 0.5rem;
+   
+}
+
+.nfText{
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 16px 20px 0;
+    background-color: #333;
+    margin:0.5rem 0;
+}
+.nfText::placeholder{
+    transform:translate3d(0,-4px,0);
+    color:#8c8c8c;
+}
+.nfForm-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.login-btn{
+    width: 100%;
+    max-width: 100%;
+    background:#e50914;
+    border:none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    padding:10px 0;
+    margin:0 auto;
+    color:#fff;
+    outline:none;
+    margin-top: 2rem; 
+    margin-bottom: 1rem;
+}
+input[type="checkbox"]+label::before {
+    background: #737373;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border: 0;
+    height: 16px;
+    left: -20px;
+    width: 16px;
+}
+input[type="checkbox"]:checked+label::after {
+    color: #000;
+    font-size: 18px;
+    left: -21px;
+    top: 0;
+}
+.label-rememberMe{
+    color:#b3b3b3;
+    
+}
+.remember{
+    flex-grow: 1;
+}
+.help-tag{
+    color:#b3b3b3;
+    margin-right:3px;
+}
+#facebooklogo{
+    height:2em;
+    width:2em;
+}
+.facebooklogin{
+    color:#737373;
+    margin:1rem 0;
+    font-size:15px;
+    font-weight: 400;
+}
+.newC{
+    color:#737373;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.signUp{
+    color:#fff;
+}
+.signUp:hover{
+color:#fff;
+}
+#recaptcha{
+    margin-top: 11px;
+    color: #8c8c8c;
+    font-size:15px;
+    
+}
+
+#Learn-more{
+    background-color: transparent;
+    border: none;
+    color: #0071eb;
+    cursor: pointer;
+    display: inline;
+    padding: 0;
+    outline:none;
+}
+.recaptcha-more{
+
+    color: #8c8c8c;
+    font-size:15px;
+    opacity: 0;
+    line-height: 1.1;
+}
+.showRecaptcha{
+    opacity: 1;  
+    transition:0.5s ease;
+  
+}
+@media (min-width:740px){
+    .SignIn{
+        margin:0 0 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .SignIn-container{
+        padding:60px 68px 40px;
+        background-color: rgba(0,0,0,0.8);
+        max-width:450px;
+        
+    }
+}

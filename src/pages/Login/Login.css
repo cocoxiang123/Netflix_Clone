@@ -1,0 +1,40 @@
+.Login{
+    color:#fff;
+ 
+}
+.Login-main{
+    padding:2rem;
+}
+#loginLogo{
+    width:167px;
+    height:45px;
+}
+.Login nav{
+    padding:0rem;
+}
+@media (min-width:740px){
+    .Login{   
+        position: relative;  
+        background:url(../../img/loginpage.jpg) center center,rgba(0,0,0,0.8);
+        z-index:0;
+        padding: 0;
+       
+}
+.Login-main{
+padding:0;
+}
+.Login::before{
+    content:'';
+    background-color: rgba(0,0,0,0.4);
+    display: block;
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+.Login nav{
+    padding:2rem;
+}
+}
