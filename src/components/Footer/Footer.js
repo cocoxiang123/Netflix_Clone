@@ -4,7 +4,7 @@ import './footer.css'
 function Footer() {
     return (
         <div className="footer">
-            <div class="footercontainer">
+            <div className="footercontainer">
                 <div className="text-left">Questions? Phone 1800 071 578</div>
                 <div className="footerItems" id="link-hover">
                     <a>FAQ</a>
